@@ -18,6 +18,11 @@ def myCos_func(x):
 def mySin_func(x):
     #return 2*np.sin(x*np.pi/12)
     return np.sin(x)
+'''
+JZB Comment:
+Code looks good. As a matter of convention, move all the code excution (the stuff from here down to if __name__)
+into the if __name__ == '__main__' block.
+'''
 # create a step size for the given equation below
 step_size = float(input("Please enter your step size: "))
 
